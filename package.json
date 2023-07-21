@@ -1,0 +1,23 @@
+{
+  "name": "react-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "-------- React App": "-------",
+    "start:app": "npm run dev --workspace=my-form-app",
+    "build:build": "npm run dev --workspace=my-form-app" 
+  },
+  "keywords": [],
+  "author": "manisha basra",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "app/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  }
+}

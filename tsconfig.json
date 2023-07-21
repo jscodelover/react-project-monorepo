@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext", "dom"], // specifies which default set of type definitions to use ("DOM", "ES6", etc)    "outDir": "lib", // .js (as well as .d.ts, .js.map, etc.) files will be emitted into this directory.,
+
+		// Module resolution
+		"baseUrl": "./", // Lets you set a base directory to resolve non-absolute module names.
+		"paths": {} // A series of entries which re-map imports to lookup locations relative to the baseUrl
+		//"typeRoots": [], // List of folders to include type definitions from.
+		//"types": [] // Type declaration files to be included in compilation.
+	},
+	"include": ["packages"],
+	"extends": "./tsconfig.base.json"
+}
